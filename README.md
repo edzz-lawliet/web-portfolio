@@ -1,6 +1,117 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React, TypeScript, and Framer Motion. Features a clean design, smooth animations, and comprehensive sections showcasing projects, skills, and experience.
+
+## 🚀 Features
+
+### Core Functionality
+- **Responsive Design**: Optimized for all screen sizes (mobile, tablet, desktop)
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Dark/Light Theme**: Toggle between themes with persistent storage
+- **React Router**: Single-page application with smooth navigation
+- **TypeScript**: Type-safe development for better code quality
+- **Performance Optimized**: Fast loading and smooth interactions
+
+### Sections
+1. **Dashboard/Hero**: Animated hero section with typewriter effect
+2. **Projects**: Filterable project gallery with modal details
+3. **About**: Personal story, timeline, and skills visualization
+4. **Contact**: Form with validation and submission handling
+5. **Footer**: Social links and additional navigation
+
+### Technical Features
+- Framer Motion animations
+- Custom CSS with CSS variables for theming
+- Error boundaries for graceful error handling
+- Form validation and state management
+- Image galleries and project showcases
+- Responsive navigation with mobile menu
+- SEO-friendly structure
+
+## 🛠️ Technologies Used
+
+### Frontend
+- **React 18+** - Modern UI library
+- **TypeScript** - Type-safe JavaScript
+- **React Router** - Client-side routing
+- **Framer Motion** - Animation library
+- **React Icons** - Icon components
+
+### Styling
+- **CSS3** - Custom styling with modern features
+- **CSS Variables** - Dynamic theming
+- **Flexbox & Grid** - Modern layout systems
+- **Media Queries** - Responsive design
+
+### Development Tools
+- **Create React App** - Project setup and build tools
+- **ESLint** - Code linting
+- **TypeScript Compiler** - Type checking
+- **npm** - Package management
+
+## 📁 Project Structure
+
+```
+src/
+├── components/           # React components
+│   ├── common/          # Reusable components
+│   │   ├── ErrorBoundary.tsx
+│   │   └── ScrollToTop.tsx
+│   ├── About.tsx        # About section
+│   ├── Contact.tsx      # Contact form
+│   ├── Dashboard.tsx    # Hero/landing section
+│   ├── Footer.tsx       # Footer component
+│   ├── Header.tsx       # Navigation header
+│   └── Projects.tsx     # Projects showcase
+├── data/                # Static data
+│   ├── aboutData.ts     # Personal information
+│   └── projectsData.ts  # Project details
+├── styles/              # CSS files
+│   ├── components/      # Component-specific styles
+│   ├── App.css         # Global styles
+│   └── variables.css   # CSS custom properties
+├── utils/               # Utility functions
+│   ├── animations.ts   # Animation configurations
+│   ├── helpers.ts      # Helper functions
+│   └── theme.ts        # Theme management
+├── assets/              # Static assets
+│   ├── images/         # Image files
+│   └── icons/          # Icon files
+└── App.tsx             # Main application component
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Node.js** (version 16 or higher)
+- **npm** or **yarn** package manager
+- **Git** for version control
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/portfolio-website.git
+   cd portfolio-website
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+4. **Open your browser**
+   - Navigate to `http://localhost:3000`
+   - The page will reload automatically when you make changes
 
 ## Available Scripts
 
